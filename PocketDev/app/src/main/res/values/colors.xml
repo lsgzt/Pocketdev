@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_light">#81C784</color>
+    <color name="on_primary">#FFFFFF</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#2196F3</color>
+    <color name="secondary_dark">#1976D2</color>
+    <color name="secondary_light">#64B5F6</color>
+    <color name="on_secondary">#FFFFFF</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#FF9800</color>
+    <color name="on_tertiary">#000000</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#F44336</color>
+    <color name="error_container">#FFCDD2</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#B71C1C</color>
+    
+    <!-- Surface Colors (Dark Theme Default) -->
+    <color name="surface">#121212</color>
+    <color name="surface_variant">#1E1E1E</color>
+    <color name="surface_bright">#2C2C2C</color>
+    <color name="surface_dim">#0D0D0D</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_variant">#B3B3B3</color>
+    
+    <!-- Background -->
+    <color name="background">#0A0A0A</color>
+    <color name="on_background">#FFFFFF</color>
+    
+    <!-- Outline -->
+    <color name="outline">#494949</color>
+    <color name="outline_variant">#2C2C2C</color>
+    
+    <!-- Syntax Highlighting Colors (Dark Theme) -->
+    <color name="syntax_keyword">#FF7B72</color>
+    <color name="syntax_string">#A5D6FF</color>
+    <color name="syntax_number">#79C0FF</color>
+    <color name="syntax_comment">#8B949E</color>
+    <color name="syntax_function">#D2A8FF</color>
+    <color name="syntax_variable">#FFA657</color>
+    <color name="syntax_operator">#FF7B72</color>
+    <color name="syntax_class">#79C0FF</color>
+    <color name="syntax_tag">#7EE787</color>
+    <color name="syntax_attribute">#79C0FF</color>
+    <color name="syntax_property">#D2A8FF</color>
+    <color name="syntax_value">#A5D6FF</color>
+    
+    <!-- Console Colors -->
+    <color name="console_output">#4CAF50</color>
+    <color name="console_error">#F44336</color>
+    <color name="console_warning">#FF9800</color>
+    <color name="console_info">#2196F3</color>
+    
+    <!-- Language Badge Colors -->
+    <color name="badge_python">#3776AB</color>
+    <color name="badge_javascript">#F7DF1E</color>
+    <color name="badge_html">#E34F26</color>
+    <color name="badge_css">#1572B6</color>
+    <color name="badge_java">#007396</color>
+    <color name="badge_cpp">#00599C</color>
+    <color name="badge_kotlin">#7F52FF</color>
+    <color name="badge_json">#292929</color>
+    
+    <!-- Common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#1F1F1F</color>
+    <color name="ripple">#33FFFFFF</color>
+    <color name="shadow">#80000000</color>
+    
+    <!-- Launcher Icon -->
+    <color name="ic_launcher_background">#4CAF50</color>
+</resources>

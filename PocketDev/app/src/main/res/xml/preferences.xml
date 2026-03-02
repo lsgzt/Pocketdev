@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/settings_appearance"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="theme"
+            android:title="@string/settings_theme"
+            android:summary="Choose app theme"
+            android:defaultValue="DARK"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:key="font_size"
+            android:title="@string/settings_font_size"
+            android:summary="Editor font size"
+            android:defaultValue="MEDIUM"
+            android:entries="@array/font_size_entries"
+            android:entryValues="@array/font_size_values"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_editor"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="tab_size"
+            android:title="@string/settings_tab_size"
+            android:summary="Number of spaces per tab"
+            android:defaultValue="FOUR"
+            android:entries="@array/tab_size_entries"
+            android:entryValues="@array/tab_size_values"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="auto_save"
+            android:title="@string/settings_auto_save"
+            android:summary="@string/settings_auto_save_summary"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="autocomplete"
+            android:title="@string/settings_autocomplete"
+            android:summary="@string/settings_autocomplete_summary"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="line_numbers"
+            android:title="@string/settings_line_numbers"
+            android:summary="@string/settings_line_numbers_summary"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_ai"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="api_key"
+            android:title="@string/settings_api_key"
+            android:summary="@string/settings_api_key_summary"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="api_key_help"
+            android:title="@string/settings_api_key_help"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:key="ai_model"
+            android:title="@string/settings_model"
+            android:defaultValue="LLAMA"
+            android:entries="@array/ai_model_entries"
+            android:entryValues="@array/ai_model_values"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="version"
+            android:title="@string/settings_version"
+            android:summary="1.0.0"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="@string/settings_privacy_policy"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="reset_settings"
+            android:title="@string/settings_reset"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Pocket Dev</string>
+    <string name="app_tagline">Code Anywhere, Learn Everywhere</string>
+    
+    <!-- Navigation -->
+    <string name="nav_editor">Editor</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_examples">Examples</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Editor -->
+    <string name="editor_title">Code Editor</string>
+    <string name="editor_hint">// Write your code here…</string>
+    <string name="editor_new_file">New File</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_run">Run</string>
+    <string name="editor_clear">Clear</string>
+    <string name="editor_undo">Undo</string>
+    <string name="editor_redo">Redo</string>
+    <string name="editor_find">Find</string>
+    <string name="editor_replace">Replace</string>
+    <string name="editor_more">More options</string>
+    
+    <!-- Languages -->
+    <string name="lang_python">Python</string>
+    <string name="lang_javascript">JavaScript</string>
+    <string name="lang_html">HTML</string>
+    <string name="lang_css">CSS</string>
+    <string name="lang_java">Java</string>
+    <string name="lang_cpp">C++</string>
+    <string name="lang_kotlin">Kotlin</string>
+    <string name="lang_json">JSON</string>
+    
+    <!-- Console -->
+    <string name="console_title">Console</string>
+    <string name="console_output">Output</string>
+    <string name="console_errors">Errors</string>
+    <string name="console_clear">Clear Console</string>
+    <string name="console_execution_time">Execution time: %d ms</string>
+    <string name="console_no_output">No output</string>
+    
+    <!-- AI Features -->
+    <string name="ai_fix_bug">Fix Bug</string>
+    <string name="ai_explain">Explain</string>
+    <string name="ai_improve">Improve</string>
+    <string name="ai_title">AI Assistant</string>
+    <string name="ai_loading">Thinking…</string>
+    <string name="ai_error">Error: %s</string>
+    <string name="ai_offline">No internet connection</string>
+    <string name="ai_apply_fix">Apply Fix</string>
+    <string name="ai_cancel">Cancel</string>
+    <string name="ai_copy">Copy</string>
+    
+    <!-- Projects -->
+    <string name="projects_title">My Projects</string>
+    <string name="projects_new">New Project</string>
+    <string name="projects_empty">No projects yet. Create your first project!</string>
+    <string name="projects_search">Search projects…</string>
+    <string name="projects_sort_by_name">Sort by Name</string>
+    <string name="projects_sort_by_date">Sort by Date</string>
+    <string name="projects_sort_by_language">Sort by Language</string>
+    <string name="project_delete_confirm">Delete "%s"?</string>
+    <string name="project_delete_message">This action cannot be undone.</string>
+    <string name="project_duplicate">Duplicate</string>
+    <string name="project_export">Export</string>
+    <string name="project_import">Import</string>
+    
+    <!-- New Project Dialog -->
+    <string name="new_project_title">New Project</string>
+    <string name="new_project_name_hint">Project name</string>
+    <string name="new_project_language">Language</string>
+    <string name="new_project_create">Create</string>
+    <string name="new_project_cancel">Cancel</string>
+    
+    <!-- Examples -->
+    <string name="examples_title">Code Examples</string>
+    <string name="examples_python">Python Examples</string>
+    <string name="examples_javascript">JavaScript Examples</string>
+    <string name="examples_html">HTML Examples</string>
+    <string name="examples_load">Load Example</string>
+    <string name="examples_preview">Preview</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_auto">Auto</string>
+    <string name="settings_font_size">Font Size</string>
+    <string name="settings_font_size_small">Small</string>
+    <string name="settings_font_size_medium">Medium</string>
+    <string name="settings_font_size_large">Large</string>
+    
+    <string name="settings_editor">Editor</string>
+    <string name="settings_tab_size">Tab Size</string>
+    <string name="settings_tab_size_2">2 spaces</string>
+    <string name="settings_tab_size_4">4 spaces</string>
+    <string name="settings_auto_save">Auto Save</string>
+    <string name="settings_auto_save_summary">Save projects automatically</string>
+    <string name="settings_autocomplete">Autocomplete</string>
+    <string name="settings_autocomplete_summary">Show code suggestions</string>
+    <string name="settings_line_numbers">Line Numbers</string>
+    <string name="settings_line_numbers_summary">Show line numbers in editor</string>
+    
+    <string name="settings_ai">AI Integration</string>
+    <string name="settings_api_key">Groq API Key</string>
+    <string name="settings_api_key_hint">Enter your Groq API key</string>
+    <string name="settings_api_key_summary">Required for AI features</string>
+    <string name="settings_api_key_help">Get your API key from groq.com</string>
+    <string name="settings_model">AI Model</string>
+    <string name="settings_model_llama">Llama 3.3 70B</string>
+    <string name="settings_model_mixtral">Mixtral 8x7B</string>
+    
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_reset">Reset to Defaults</string>
+    <string name="settings_reset_confirm">Reset all settings?</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Welcome to Pocket Dev!</string>
+    <string name="onboarding_description">Your mobile coding companion. Write, run, and learn code anywhere.</string>
+    <string name="onboarding_editor_title">Powerful Code Editor</string>
+    <string name="onboarding_editor_desc">Syntax highlighting, autocomplete, and support for 8 programming languages.</string>
+    <string name="onboarding_execution_title">Run Code On-Device</string>
+    <string name="onboarding_execution_desc">Execute Python, JavaScript, and HTML directly on your phone. No internet needed!</string>
+    <string name="onboarding_ai_title">AI-Powered Learning</string>
+    <string name="onboarding_ai_desc">Get help from AI to fix bugs, explain code, and improve your programs.</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_no_code">Please write some code first</string>
+    <string name="error_execution_timeout">Execution timed out (10s limit)</string>
+    <string name="error_memory_limit">Memory limit exceeded</string>
+    <string name="error_invalid_api_key">Invalid API key</string>
+    <string name="error_rate_limit">Rate limit exceeded. Please try again later.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    
+    <!-- Success -->
+    <string name="success_saved">Saved successfully</string>
+    <string name="success_exported">Exported to Downloads</string>
+    <string name="success_imported">Imported successfully</string>
+    <string name="success_copied">Copied to clipboard</string>
+</resources>

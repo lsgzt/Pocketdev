@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Dark) -->
+    <style name="Theme.PocketDev" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_dark</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_dark</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary</item>
+        
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+        
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        
+        <!-- Background -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- Typography -->
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.PocketDev.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.PocketDev.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.PocketDev.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.PocketDev.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.PocketDev.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.PocketDev.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.PocketDev.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.PocketDev.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.PocketDev.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.PocketDev.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.PocketDev.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.PocketDev.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.PocketDev.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.PocketDev.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.PocketDev.LabelSmall</item>
+    </style>
+    
+    <!-- Light Theme -->
+    <style name="Theme.PocketDev.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_light</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_dark</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="colorSurfaceVariant">#F5F5F5</item>
+        <item name="colorOnSurfaceVariant">#666666</item>
+        <item name="android:colorBackground">#FAFAFA</item>
+        <item name="colorOnBackground">#000000</item>
+        <item name="colorOutline">#DDDDDD</item>
+        <item name="android:statusBarColor">#FAFAFA</item>
+        <item name="android:navigationBarColor">#FAFAFA</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.PocketDev.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.PocketDev</item>
+    </style>
+    
+    <!-- Typography -->
+    <style name="TextAppearance.PocketDev.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+    
+    <style name="TextAppearance.PocketDev.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+    </style>
+</resources>
