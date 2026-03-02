@@ -39,10 +39,9 @@ jobs:
         run: ./gradlew tasks
 
       - name: Build Debug APK
-        run: ./gradlew build --no-daemon --stacktrace --info
-
+        run: ./gradlew :app:bundleDebug --no-daemon --stacktrace
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: PocketDev-APK
-          path: app/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/*.aab
